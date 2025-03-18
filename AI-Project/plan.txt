@@ -1,0 +1,32 @@
+categories:
+
+#   Column           Non-Null Count  Dtype
+---  ------           --------------  -----
+ 0   Age              4900 non-null   float64
+ 1   Gender           4900 non-null   object
+ 2   Smoking Status   4900 non-null   object
+ 3   Lung Capacity    4900 non-null   float64
+ 4   Disease Type     4900 non-null   object
+ 5   Treatment Type   4900 non-null   object
+ 6   Hospital Visits  4900 non-null   float64
+ 7   Recovered        4900 non-null   object
+
+ What Disease do the patient has more likely?
+P((Disease)+(...*)-(Recovered,Treatment Type))
+
+ chances to survive some Disease?
+P((Recovered)+(...*))
+ 
+ what treatment better for what disease?
+P((disease,treatment, Recovered)+(...*))
+
+ how smoking influences recovery?
+P((Smoking, Recovered)+(...*))
+
+ optimal hospital visits for each or all disease to survive the most
+P((recovered, (Disease), Hospital visits),(...*))
+
+
+NUMERICAL FEATURES: Age, Lung Capacity, Hospital Visits
+CATEGORICAL FEATURES: Gender, Smoking Status, Disease Type, Treatment Type
+Target Variable: Recovered (binary: Yes/No)
