@@ -45,3 +45,20 @@ So it well **neither** be an **exact, nor** a **trustworthy** estimator **for** 
     5. Optimal hospital visits for his disease #TODO
 
 </details>
+
+
+
+#### TODO's
+This model will not be my main focus, becaus the dataset is not the best one for high accuracy, but i still want to add some features like:
+
+    1. What disease does the patient tend to have #TODO
+    
+    2. What treatment is better for the patient regarding his data and disease #TODO
+    
+    3. How smoking influences his chances #TODO
+    
+    4. Optimal hospital visits for his disease #TODO
+
+### Remarks
+ - If you have some suggestions, or find errors, feel free to add some pull requests, and i will review them ASAP :)
+ - The project is completely open-source and u can use it however you like
